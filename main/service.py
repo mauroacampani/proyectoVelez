@@ -209,13 +209,14 @@ def tabla(params={}):
                 tablaProsiciones['logo'] = s['team']['logos']
                 tablaProsiciones['name'] = s['team']['name']
                 tablaProsiciones['pj'] = s['stats'][0]
-                tablaProsiciones['g'] = s['stats'][6]
-                tablaProsiciones['e'] = s['stats'][5]
+                tablaProsiciones['g'] = s['stats'][7]
+                tablaProsiciones['e'] = s['stats'][6]
                 tablaProsiciones['p'] = s['stats'][1]
-                tablaProsiciones['gf'] = s['stats'][4]
-                tablaProsiciones['gc'] = s['stats'][3]
-                tablaProsiciones['dif'] = s['stats'][8]
-                tablaProsiciones['pts'] = s['stats'][2]
+                tablaProsiciones['gf'] = s['stats'][5]
+                tablaProsiciones['gc'] = s['stats'][4]
+                tablaProsiciones['dif'] = s['stats'][2]
+                tablaProsiciones['pts'] = s['stats'][3]
+                
                 
                 datos.append(tablaProsiciones)
 
